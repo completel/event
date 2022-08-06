@@ -34,7 +34,7 @@
           <el-button type="primary" @click="registerFn" style="width: 100%"
             >注册</el-button
           >
-          <el-link type="info">去登陆</el-link>
+          <el-link type="info" @click="$router.push('/login')">去登陆</el-link>
         </el-form-item>
       </el-form>
     </div>

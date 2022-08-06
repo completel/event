@@ -30,7 +30,7 @@
             :loading="loading"
             >登录</el-button
           >
-          <el-link type="info">去注册</el-link>
+          <el-link type="info" @click="$router.push('/reg')">去注册</el-link>
         </el-form-item>
       </el-form>
     </div>

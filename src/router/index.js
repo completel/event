@@ -13,6 +13,10 @@ export default new VueRouter({
         {
             path: '/login',
             component: () => import("@/page/Login")
+        },
+        {
+            path: '*',
+            redirect: '/login',
         }
     ]
 })
